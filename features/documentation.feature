@@ -1,9 +1,8 @@
-Feature: Example feature
-  As a user of Cucumber.js
-  I want to have documentation on Cucumber
-  So that I can concentrate on building awesome applications
+Feature: Store selecting feature
+  As a user of Migrocer
+  I want to have select one of store from list of stores
 
-  Scenario: Reading documentation
-    Given I am on the Cucumber.js GitHub repository
-    When I click on "CLI"
-    Then I should see "Running specific features"
+  Scenario: Selecting a store from Migrocer
+    Given I am on the Migrocer Stores Landing page
+    When I click on "Ratnadeep"
+    Then I should see "Shop by Bread Diary & Eggs"

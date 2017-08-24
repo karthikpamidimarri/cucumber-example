@@ -2,8 +2,8 @@ var seleniumWebdriver = require('selenium-webdriver');
 var {defineSupportCode} = require('cucumber');
 
 defineSupportCode(function({Given, When, Then}) {
-    Given('I am on the Cucumber.js GitHub repository', function() {
-        return this.driver.get('https://github.com/cucumber/cucumber-js/tree/master');
+    Given('I am on the Migrocer Stores Landing page', function() {
+        return this.driver.get('http://mohanspreereact.herokuapp.com/stores');
     });
 
     When('I click on {string}', function (text) {
